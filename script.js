@@ -1,11 +1,12 @@
 const reviews = [
-    {
-        id: 1,
-        name: "John Doe",
-        img: '#',
-        text: "Excellent service and friendly staff!",
-        date: "2023-10-01"
-    },
+ {
+  id: 1,
+  name: "Jayden Paulino",
+  image: "Jayden_paulino.png",
+  text: "Excellent service and friendly staff!",
+  date: "2023-10-01"
+},
+
     {
         id: 2,
         name: "Jane Smith",
@@ -116,9 +117,6 @@ prevBtn.addEventListener('click', function() {
 
 
 
-
-
-
 // console.log("Hello, World!");
 // let chcken = 123
 // console.log(chcken);
@@ -140,7 +138,7 @@ prevBtn.addEventListener('click', function() {
 // const hour = new Date().getHours();
 // let greeting = "";
 // if (hour < 12) {
-//     greeting = "Good morning!`";
+//     greeting = "Good morning!";
 // } else if (hour < 18) {
 //     greeting = "Good afternoon!";
 // } else {
