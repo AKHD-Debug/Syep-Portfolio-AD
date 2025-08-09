@@ -1,24 +1,23 @@
-const reviews = [
- {
+const reviews = [{
   id: 1,
-  name: "Jayden Paulino",
-  image: "Jayden_paulino.png",
-  text: "Excellent service and friendly staff!",
+  name: "Jayden_paulino",
+  img: 'Jayden paulino.jpg',
+  text: "Akheel is a great great person. He is very friendly and helpful. and he is great to work with and he is very knowledgeable about his work and explains thing throughly. .",
   date: "2023-10-01"
 },
 
     {
         id: 2,
-        name: "Jane Smith",
-        img: '#',
-        text: "Very good experience, will come again.",
+        name: "Jayleen brunson",
+        img: 'Jayleen brunson.jpg',
+        text: "Akheel is a cool person to work with, hes freindly and nonetheless helpful. he picks up on things quickly and he adjust's to new things with ease. he is also a strong witted person which heps him in challenging situations.",
         date: "2023-10-02"          
     },
   {
-        id: 1,
-        name: "nohj Doe",
-        img: '#',
-        text: " friendly staff!",
+        id: 3,
+        name: "Change bruno",
+        img: 'Change.jpg',
+        text: " Akheel is a very helpful person, he is very friendly and he is great to work with. He is very knowledgeable about his work and helps alot of people with their work. He is also very good at explaining things and he is very patient with people who are new to the work.",
         date: "2023-10-01"
     },
     
