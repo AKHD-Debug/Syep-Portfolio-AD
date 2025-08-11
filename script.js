@@ -15,9 +15,9 @@ const reviews = [{
     },
   {
         id: 3,
-        name: "Change bruno",
-        img: 'Change.jpg',
-        text: " Akheel is a very helpful person, he is very friendly and he is great to work with. He is very knowledgeable about his work and helps alot of people with their work. He is also very good at explaining things and he is very patient with people who are new to the work.",
+        name: "Chase",
+        img: 'Chase.jpg',
+        text: " Akheel is a very helpful person, he is very friendly and he is great to work with and he knows alot about the subjects he likes and helps alot of people with their work. He is also very good at explaining things and he is very patient with people who are new to the work.",
         date: "2023-10-01"
     },
     
