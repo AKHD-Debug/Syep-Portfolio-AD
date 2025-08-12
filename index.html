@@ -1,95 +1,139 @@
-<!DOCTYPE html> <!--This tells the browser what kind of file we're writing-->
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Akheel's Portfolio</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link href="style.css" rel="stylesheet" />
-  </head>
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Akheel's Portfolio</title>
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+rel="stylesheet"
+/>
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+rel="stylesheet"
+/>
+<style>
+/* Hero Section Styling */
+.hero {
+text-align: center;
+padding: 80px 20px;
+background: linear-gradient(135deg, #4f46e5, #9333ea);
+color: white;
+}
+.hero img {
+border-radius: 50%;
+border: 4px solid white;
+margin-bottom: 20px;
+}
+.accent {
+color: #ffd700;
+}
+/* Skills Section */
+.skills-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+gap: 15px;
+text-align: center;
+}
+.skills-grid div {
+background: #f8f9fa;
+padding: 15px;
+border-radius: 8px;
+transition: transform 0.3s;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.skills-grid div:hover {
+transform: translateY(-5px);
+background: #e9ecef;
+}
+footer {
+background: #212529;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+}
+</style>
+</head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Akheel's Portfolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Home</a
-            >
-            <a class="nav-link" href="index.html#about">About me</a>
-            <a class="nav-link" href="index.html#skills">skills</a>
-            <a class="nav-link" href="testimonials.html">Testimonials</a>
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<div class="container">
+<a class="navbar-brand fw-bold" href="#">Akheel's Portfolio</a>
+<button
+class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarNav"
+>
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<div class="navbar-nav ms-auto">
+<a class="nav-link active" href="#home">Home</a>
+<a class="nav-link" href="#about">About Me</a>
+<a class="nav-link" href="#skills">Skills</a>
+<a class="nav-link" href="#contact">Contact</a>
+<a class="nav-link" href="testimonials.html">Testimonials</a> <!-- Added -->
+</div>
+</div>
+</div>
+</nav>
 
-    <section id="home" class="hero">
-      <img src="Akheel mog.png" alt="My Profile Picture" width="30%" />
-      <h2>
-        Hi, i am <span class="accent">Akheel Dixon</span>
-      </h2>
-      <p>I'm a high school student learning web development.</p>
-    </section>
+<!-- Hero -->
+<section id="home" class="hero">
+<img src="Akheel mog.png" alt="Profile Picture" width="150" />
+<h2>Hi, I am <span class="accent">Akheel Dixon</span></h2>
+<p class="lead">A high school student passionate about web development</p>
+<a href="#about" class="btn btn-warning btn-lg mt-3">Learn More</a>
+</section>
 
-    <section id="about" class="section">
-      <h2> About me </h2>
-      <p>
-        Hi, my name is Akheel Dixon. I am a high school student that attends
-        LPA. A skill building job that i have learned and used is coding. i
-        have done html coding,script.js and style.css. I i have an adaptiblity
-        skill and learning skill which helps me pick up on new things pretty
-        quickly. The jobs that i have wanted to pursue were graphic
-        engineer,mechanical engineer and an architect.
-      </p>
-    </section>
+<!-- About -->
+<section id="about" class="container py-5">
+<h2 class="text-center mb-4">About Me</h2>
+<p class="text-center">
+My name is <strong>Akheel Dixon</strong>. I am a high school student at LPA with a strong interest in coding and technology.
+I have experience in <code>HTML</code>, <code>CSS</code>, and <code>JavaScript</code>.
+I’m adaptable and quick to learn new skills. My career interests include becoming a
+graphic engineer, mechanical engineer, or architect.
+</p>
+</section>
 
-    <section id="skills" class="section">
-      <h2> My Skills </h2>
-      <div class="grid">
-        <div>HTML</div>
-        <div>CSS</div>
-        <div>JavaScript</div>
-      </div>
-    </section>
+<!-- Skills -->
+<section id="skills" class="container py-5">
+<h2 class="text-center mb-4">My Skills</h2>
+<div class="skills-grid">
+<div><i class="fab fa-html5 fa-2x text-danger"></i><br>HTML</div>
+<div><i class="fab fa-css3-alt fa-2x text-primary"></i><br>CSS</div>
+<div><i class="fab fa-js-square fa-2x text-warning"></i><br>JavaScript</div>
+<div><i class="fas fa-brain fa-2x text-info"></i><br>Critical Thinking</div>
+<div><i class="fas fa-lightbulb fa-2x text-warning"></i><br>Creativity</div>
+</div>
+<div class="text-center mt-4">
+<a href="testimonials.html" class="btn btn-success btn-lg">
+See My Testimonials
+</a>
+</div>
+</section>
 
-    <hr />
-    <section id="second skills" class="Part 2 of skills">
-      <h3> Second skills </h3>
-      <div class="2nd grid">
-        <div>critical thinking</div>
-        <div>Creativity</div>
-      </div>
-    </section>
+<!-- Contact -->
+<section id="contact" class="container py-5">
+<h2 class="text-center mb-4">Contact Me</h2>
+<div class="text-center">
+<p><i class="fas fa-phone-alt"></i> <a href="tel:917-213-7902">917-213-7902</a></p>
+<p><i class="fas fa-envelope"></i> <a href="mailto:AKheeld@nycstudents.net">AKheeld@nycstudents.net</a></p>
+<p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/akheel-dixon-123456789/" target="_blank">LinkedIn Profile</a></p>
+<a href="#home" class="btn btn-primary mt-3">Back to Top</a>
+</div>
+</section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
+<!-- Footer -->
+<footer>
+<p>&copy; 2025 Akheel Dixon. All rights reserved.</p>
+</footer>
 
-    <script src="script.js"></script>
-  </body>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

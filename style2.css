@@ -11,26 +11,26 @@ Variables
 ===============
 */
 :root {
-  --clr-primary-1: hsl(273, 33%, 66%);
-  --clr-primary-2: hsl(268, 36%, 60%);
-  --clr-primary-3: hsl(0, 0%, 100%);
+  --clr-primary-1: hsl(33, 40%, 53%);
+  --clr-primary-2: hsl(42, 67%, 60%);
+  --clr-primary-3: hsl(40, 84%, 64%);
   --clr-primary-4: hsl(46, 88%, 74%);
-  --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-primary-5: hwb(35 40% 8%);
   --clr-primary-6: hsl(0, 0%, 0%);
   --clr-primary-7: hsl(0, 0%, 0%);
   --clr-primary-8: hsl(205, 86%, 81%);
   --clr-primary-9: hsl(205, 90%, 88%);
-  --clr-primary-10: hsl(205, 100%, 96%);
+  --clr-primary-10: hsl(204, 100%, 23%);
   --clr-grey-1: hsl(0, 0%, 0%);
   --clr-grey-2: hsl(0, 0%, 0%);
   --clr-grey-3: hsl(0, 0%, 0%);
   --clr-grey-4: hsl(0, 0%, 0%);
-  --clr-grey-5: hsl(257, 76%, 24%);
+  --clr-grey-5: hsl(45, 67%, 57%);
   --clr-grey-6: hsl(32, 49%, 63%);
   --clr-grey-7: hsl(211, 27%, 70%);
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(210, 3%, 26%);
-  --clr-grey-10: hsl(208, 26%, 11%);
+  --clr-grey-10: hsl(42, 100%, 15%);
   --clr-white: #000000;
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
